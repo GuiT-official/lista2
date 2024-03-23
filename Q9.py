@@ -1,3 +1,4 @@
+from math import factorial
 # Garante que c seja do tipo inteiro.
 while True:
     try:
@@ -18,3 +19,4 @@ for k in range(c+1):
     for j in range(c-k+1):
         i += 1
         print(i,' ',k,'+',j,'+',c-k-j,'=',c)
+print(f'Número esperado: {factorial(c+2)/(2*factorial(c))} = ({c}+2)!/(2*{c}!)')
