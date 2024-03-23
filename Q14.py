@@ -1,4 +1,4 @@
-# Solicita para o usuário, se ele deseja gravar as possibilidades num arquivo txt.
+# Solicita para o usuário se ele deseja gravar as possibilidades num arquivo txt.
 print('Número esperado: 16.483.600 = (30!/(27!*3!))²')
 while True:
     n = input('Deseja gravar um arquivo ("registro.txt") com as possibilidades?(s/n) ')
