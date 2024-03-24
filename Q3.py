@@ -16,7 +16,7 @@ def mdc(y,x):
     return y
 
 # Aplica as regras descritas no enunciado.
-m = [numero(1),numero(2)]
+m = [abs(numero(1)),abs(numero(2))]
 if min(m) == 0:
     print(f'O mdc é de {max(m)}')
 else:
